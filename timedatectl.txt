@@ -1,0 +1,7 @@
+               Local time: Wed 2021-11-20 23:11:44 EST
+           Universal time: Thu 2021-11-120 04:11:44 UTC
+                 RTC time: Thu 2021-11-20 04:11:44
+                Time zone: US/Eastern (EST, -0500)
+System clock synchronized: no
+              NTP service: n/a
+          RTC in local TZ: no
